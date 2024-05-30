@@ -7,6 +7,10 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 import xgboost as xgb
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
 
 # Load models and transformers
 models = {
