@@ -12,7 +12,6 @@ from nltk.stem import PorterStemmer
 models = {
     'XGBoost (Default)': 'best_xgb_model.pkl',
     'DecisionTreeClassifier': 'best_DecisionTreeClassifier_model.pkl',
-    'RandomForestClassifier': 'best_RandomForestClassifier_model.pkl',
     'AdaBoostClassifier': 'best_AdaBoostClassifier_model.pkl',
     'KNeighborsClassifier': 'best_KNeighborsClassifier_model.pkl',
     'LogisticRegression': 'best_LogisticRegression_model.pkl',
