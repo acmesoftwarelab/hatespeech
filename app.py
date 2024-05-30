@@ -15,10 +15,11 @@ nltk.download('wordnet')
 
 # Load models and transformers
 models = {
-    'DecisionTreeClassifier': 'best_DecisionTreeClassifier_model.pkl',
+   
     'AdaBoostClassifier': 'best_AdaBoostClassifier_model.pkl',
     'KNeighborsClassifier': 'best_KNeighborsClassifier_model.pkl',
     'LogisticRegression': 'best_LogisticRegression_model.pkl',
+     'DecisionTreeClassifier': 'best_DecisionTreeClassifier_model.pkl',
     'Naive Bayes': 'best_naive_bayes_model_model.pkl'
 }
 
