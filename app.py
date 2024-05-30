@@ -15,7 +15,6 @@ nltk.download('wordnet')
 
 # Load models and transformers
 models = {
-    'XGBoost (Default)': 'best_xgb_model.pkl',
     'DecisionTreeClassifier': 'best_DecisionTreeClassifier_model.pkl',
     'AdaBoostClassifier': 'best_AdaBoostClassifier_model.pkl',
     'KNeighborsClassifier': 'best_KNeighborsClassifier_model.pkl',
